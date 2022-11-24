@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    background-color:  #129799;
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+.itemHeader {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    width: 18%;
+    margin-top: 2%;
+}
+
+#batida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista {
+    color: white;
+    width: 100%;
+    margin-top: -10vh;
+}
+
+main {
+    background-color:  #FFA185;
+    width: 100%;
+    height: 110vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12vw;
+    padding-top: 1rem;
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+img {
+    width: 40%;
+    padding: 2%;
+}
+
+footer {
+    background-color:  #129799;
+    width: 100%;
+    height: 20vh;
+
+}
+
+.containerFooter {
+    display: flex;
+}
+
+.navFooter {
+    padding-top: 2.5rem;
+}
+
+.itemFooter {
+    color: white;
+    margin-left: 5vw;
+    font-size: 22px;
+}
+
+.icons {
+    width: 4vw;
+}
+
+.divIcons {
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: 10vw;
+}
